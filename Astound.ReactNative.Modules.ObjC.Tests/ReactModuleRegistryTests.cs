@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Astound.ReactNative.Modules.ObjC.Tests;
 
