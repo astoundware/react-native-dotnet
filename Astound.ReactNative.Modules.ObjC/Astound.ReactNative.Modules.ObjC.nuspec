@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata minClientVersion="2.5">
+    <id>Astound.ReactNative.Modules.ObjC</id>
+    <version>1.0.0</version>
+    <title>Astound.ReactNative.Modules.ObjC</title>
+    <authors>Astound</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/astoundware/react-native-dotnet</projectUrl>
+    <icon>images\astound.png</icon>
+    <description>This library provides the foundation for developing React Native modules for Objective-C based platforms in .NET.</description>
+    <copyright>Copyright © 2022 Astound</copyright>
+    <tags>React iOS macOS</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Astound.ReactNative.Modules" version="1.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="..\images\astound.png" target="images" />
+      <file src="bin\Release\netstandard2.0\Astound.ReactNative.Modules.ObjC.dll" target="lib\netstandard2.0" />
+  </files>
+</package>

@@ -4,6 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>10.0</LangVersion>
     <Nullable>enable</Nullable>
+    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
 
 </Project>

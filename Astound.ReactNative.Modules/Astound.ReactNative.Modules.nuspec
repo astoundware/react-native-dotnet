@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata minClientVersion="2.5">
+    <id>Astound.ReactNative.Modules</id>
+    <version>1.0.0</version>
+    <title>Astound.ReactNative.Modules</title>
+    <authors>Astound</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/astoundware/react-native-dotnet</projectUrl>
+    <icon>images\astound.png</icon>
+    <description>This library provides the foundation for developing React Native modules in .NET.</description>
+    <copyright>Copyright © 2022 Astound</copyright>
+    <tags>React</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="..\images\astound.png" target="images" />
+      <file src="bin\Release\netstandard2.0\Astound.ReactNative.Modules.dll" target="lib\netstandard2.0" />
+  </files>
+</package>

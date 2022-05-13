@@ -63,8 +63,8 @@ public class ClassBuilderTests
         var expected =
 @$"using System;
 using System.Runtime.InteropServices;
-using Foundation;
 using Astound.ReactNative.Bindings;
+using Foundation;
 
 namespace My.Native.Modules
 {{
@@ -109,8 +109,8 @@ namespace My.Native.Modules
         var expected =
 @$"using System;
 using System.Runtime.InteropServices;
-using Foundation;
 using Astound.ReactNative.Bindings;
+using Foundation;
 
 namespace My.Native.Modules
 {{

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata minClientVersion="2.5">
+    <id>Astound.ReactNative.Generators.ObjC</id>
+    <version>0.64.0</version>
+    <title>Astound.ReactNative.Generators.ObjC</title>
+    <authors>Astound</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/astoundware/react-native-dotnet</projectUrl>
+    <icon>images\astound.png</icon>
+    <description>This library provides source generators for simplifying the development of React Native modules for Objective-C based platforms in .NET.</description>
+    <copyright>Copyright © 2022 Astound</copyright>
+    <tags>React iOS macOS</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="..\images\astound.png" target="images" />
+      <file src="bin\Release\netstandard2.0\*.dll" target="analyzers\dotnet\cs" />
+      <file src="Astound.ReactNative.Generators.ObjC.targets" target="build"/>
+  </files>
+</package>

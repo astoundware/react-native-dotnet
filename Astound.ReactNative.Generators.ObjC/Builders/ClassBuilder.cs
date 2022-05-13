@@ -30,8 +30,8 @@ public class ClassBuilder : IClassBuilder
 
         indentedWriter.WriteLine("using System;");
         indentedWriter.WriteLine("using System.Runtime.InteropServices;");
-        indentedWriter.WriteLine("using Foundation;");
         indentedWriter.WriteLine("using Astound.ReactNative.Bindings;");
+        indentedWriter.WriteLine("using Foundation;");
         indentedWriter.WriteLine();
         indentedWriter.WriteLine($"namespace {metadata.Namespace}");
         indentedWriter.WriteLine("{");
