@@ -9,9 +9,7 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/astoundware/react-native-dotnet</projectUrl>
     <icon>images\astound.png</icon>
-    <description>This library provides source generators for simplifying the development of React Native modules for
-      Objective-C based platforms in .NET.
-    </description>
+    <description>This library provides source generators for simplifying the development of React Native modules for Objective-C based platforms in .NET.</description>
     <copyright>Copyright © 2024 Astound</copyright>
     <tags>React iOS macOS</tags>
     <releaseNotes>
